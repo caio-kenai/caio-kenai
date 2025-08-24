@@ -33,11 +33,11 @@ Tenho experiência e proficiência em uma variedade de linguagens, frameworks e 
 Estou sempre me atualizando e aprimorando minhas habilidades.  
 
 - Estudando diversos **sistemas de IA** 🤖  
-  - **CrewAI** – Framework para criação de agentes de IA colaborativos.
-  - **ADK (Agent Development Kit)** – Kit de desenvolvimento para construir e treinar agentes inteligentes.
-  - **RAG (Retrieval-Augmented Generation)** – Técnica que combina busca em bases de dados com geração de linguagem natural para respostas mais precisas.
+  - **CrewAI** – Framework para criação de agentes de IA colaborativos.  
+  - **ADK (Agent Development Kit)** – Kit de desenvolvimento para construir e treinar agentes inteligentes.  
+  - **RAG (Retrieval-Augmented Generation)** – Técnica que combina busca em bases de dados com geração de linguagem natural para respostas mais precisas.  
 
-- Aprendendo **Golang** para aperfeiçoar meus conhecimentos em inteligência artificial e servidores ⚙️
+- Aprendendo **Golang** para aperfeiçoar meus conhecimentos em inteligência artificial e servidores ⚙️  
 
 ---
 
