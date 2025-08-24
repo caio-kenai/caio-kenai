@@ -46,8 +46,8 @@ Estou sempre me atualizando e aprimorando minhas habilidades.
 Aqui você encontrará alguns dos projetos que desenvolvi para aplicar e demonstrar meus conhecimentos:  
 
 - 🚀 **[Agente RAG com Next.js e Flask 🤖](https://github.com/caio-kenai/agente_rag-com-next-e-flask)**  
-- 🚀 **[Agente de IA RAG com Python e banco vetorial ChromaDB 🤖](https://github.com/caio-kenai/desafio-agente_de_ia-playlist)**
-- 🌐 **[Landing Page responsiva com HTML, CSS e TailwindCSS 🎨]**
+- 🚀 **[Agente de IA RAG com Python e banco vetorial ChromaDB 🤖](https://github.com/caio-kenai/desafio-agente_de_ia-playlist)**  
+- 🌐 **[Landing Page responsiva com HTML, CSS e TailwindCSS 🎨](https://github.com/caio-kenai/agente_rag-com-next-e-flask)**  
 
 📂 Fique à vontade para explorar esses repositórios e ver um pouco do meu trabalho!  
 
