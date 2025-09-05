@@ -8,7 +8,7 @@ Minha jornada profissional é focada em me tornar um **desenvolvedor completo**,
 
 ---
 
-## 💻 Minha Pilha de Tecnologias (Tech Stack)
+## 💻 Tech Stack
 
 Tenho experiência e proficiência em uma variedade de linguagens, frameworks e ferramentas:  
 
