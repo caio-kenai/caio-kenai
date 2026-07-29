@@ -18,10 +18,8 @@ Minha jornada profissional é focada em me tornar um **desenvolvedor completo**,
 Tenho experiência e proficiência em uma variedade de linguagens, frameworks e ferramentas:  
 
 - **Linguagens de Programação:** JavaScript, TypeScript, Python, C#, Golang ⚡  
-- **Desenvolvimento Web:** HTML, CSS, React, Next.js, Node.js, Flask, Django, .NET, ASP.NET 🌐  
-- **Bancos de Dados:** MySQL, ChromaDB, SQLite, PostgreSQL, MariaDB 🗄️  
-- **Frameworks de UI/UX:** TailwindCSS 🎨  
-- **Bibliotecas de Dados:** Pandas 📊  
+- **Desenvolvimento Web:** HTML, CSS, React.js, Vue.js, Angular, Next.js, Node.js, Flask, Django, .NET, ASP.NET 🌐  
+- **Bancos de Dados:** MySQL, SQLite, PostgreSQL, MariaDB 🗄️
 
 ### 🔎 Conceitos e Experiências  
 - Sistemas Distribuídos 🖧
