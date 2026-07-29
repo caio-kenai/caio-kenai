@@ -2,7 +2,7 @@
 
 Bem-vindo(a) ao meu perfil no GitHub! 🚀  
 
-Sou um entusiasta de tecnologia e atualmente estou construindo minha carreira como **Estagiário de T.I na Playlist Software Solutions**. Estou em constante busca por conhecimento e adoro me aprofundar em novas tecnologias e conceitos para resolver desafios complexos.  
+Sou um entusiasta de tecnologia e atualmente estou construindo minha carreira como **Técnico de Suporte Júnior na Playlist Software Solutions**. Estou em constante busca por conhecimento e adoro me aprofundar em novas tecnologias e conceitos para resolver desafios complexos.  
 
 Minha jornada profissional é focada em me tornar um **desenvolvedor completo**, e este perfil é o reflexo da minha dedicação e dos meus estudos.  
 
@@ -17,9 +17,9 @@ Minha jornada profissional é focada em me tornar um **desenvolvedor completo**,
 
 Tenho experiência e proficiência em uma variedade de linguagens, frameworks e ferramentas:  
 
-- **Linguagens de Programação:** JavaScript, TypeScript, Python, C# ⚡  
+- **Linguagens de Programação:** JavaScript, TypeScript, Python, C#, Golang ⚡  
 - **Desenvolvimento Web:** HTML, CSS, React, Next.js, Node.js, Flask, Django, .NET, ASP.NET 🌐  
-- **Bancos de Dados:** MySQL, ChromaDB, SQLite 🗄️  
+- **Bancos de Dados:** MySQL, ChromaDB, SQLite, PostgreSQL, MariaDB 🗄️  
 - **Frameworks de UI/UX:** TailwindCSS 🎨  
 - **Bibliotecas de Dados:** Pandas 📊  
 
