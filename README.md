@@ -57,33 +57,50 @@ BUILD · TEST · SHIP
   <img src="https://skillicons.dev/icons?i=cpp,cs,ts,js,python,go,dart" />
 </p>
 
-## Desenvolvimento
+## Frontend
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=dotnet,nodejs,nestjs,react,nextjs,flutter,html,css" />
+  <img src="https://skillicons.dev/icons?i=html,css,react,nextjs,vue,angular" />
+</p>
+
+## Backend
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=dotnet,nodejs,nestjs" />
+  <img src="https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
+</p>
+
+## Desktop & Mobile
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=electron,flutter" />
+  <img src="https://img.shields.io/badge/JUCE-8A2BE2?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/Wails-DF0000?style=for-the-badge&logo=go&logoColor=white" />
 </p>
 
 ## Bancos de Dados
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,mongodb,redis" />
-  <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" />
-  <img src="https://img.shields.io/badge/NoSQL-4EA94B?style=for-the-badge&logoColor=white" />
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,mariadb,sqlite,mongodb,redis" />
 </p>
 
-## Ferramentas e Infraestrutura
+<p align="left">
+  <img src="https://img.shields.io/badge/NoSQL-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
+</p>
+
+## Ferramentas & Infraestrutura
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=git,github,docker,linux,windows" />
 </p>
 
-## Tecnologias e Conceitos
+## Tecnologias & Conceitos
 
 <p align="left">
-  <img src="https://img.shields.io/badge/JUCE-8A2BE2?style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/badge/REST%20API-161B22?style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/badge/Self--Hosting-161B22?style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/badge/Networking-161B22?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/Automation-161B22?style=for-the-badge&logoColor=white" />
 </p>
 
 ---
@@ -170,15 +187,13 @@ Portfólio pessoal desenvolvido para apresentar projetos, experiências e trabal
 
 ---
 
-# Atualmente
-
-Meu foco de desenvolvimento está principalmente em:
+# Em desenvolvimento
 
 ### C++ / JUCE
 
 - Aplicações desktop
-- Áudio
-- Windows
+- Desenvolvimento de áudio
+- Integração com Windows
 - Sistemas nativos
 
 ### TypeScript
@@ -187,19 +202,32 @@ Meu foco de desenvolvimento está principalmente em:
 - Next.js
 - Node.js
 - NestJS
+- Vue.js
+- Angular
 
 ### Backend & Dados
 
 - .NET
+- ASP.NET Core
 - PostgreSQL
 - MySQL / MariaDB
 - SQLite
+- MongoDB
+- Redis
 - NoSQL
+
+### Desktop & Mobile
+
+- JUCE
+- Electron
+- Wails
+- Flutter
 
 ### Infraestrutura
 
 - Docker
 - Linux
+- Windows
 - Redes
 - Self-hosting
 - Automação
@@ -207,29 +235,6 @@ Meu foco de desenvolvimento está principalmente em:
 ---
 
 # GitHub
-
-<div align="center">
-
-<img
-  src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=caio-kenai&theme=github_dark"
-  width="100%"
-/>
-
-<br>
-
-<img
-  src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=caio-kenai&theme=github_dark"
-  height="170"
-/>
-
-<img
-  src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=caio-kenai&theme=github_dark"
-  height="170"
-/>
-
-</div>
-
-<br>
 
 <div align="center">
 
