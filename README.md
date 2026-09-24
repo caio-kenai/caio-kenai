@@ -1,47 +1,92 @@
-# Caio Oliveira Pacifico
+<!-- Header -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7AA2F7,100:BB9AF7&height=200&section=header&text=Caio%20Pacifico&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Software%20Developer&descAlignY=58&descSize=18&animation=fadeIn" width="100%" />
+</p>
 
-Desenvolvedor de software e formado em Sistemas de Informação, com interesse em desenvolvimento de aplicações, sistemas desktop, áudio, infraestrutura e automação.
+<p align="center">
+  <a href="https://github.com/caio-kenai">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=7AA2F7&center=true&vCenter=true&width=620&lines=Desktop+%C2%B7+Web+%C2%B7+Mobile;C%2B%2B+%7C+C%23+%7C+TypeScript+%7C+Go+%7C+Rust;Building+audio+tools+for+Windows+with+JUCE;Always+learning+something+new+%F0%9F%9A%80" alt="Typing SVG" />
+  </a>
+</p>
 
-Atualmente trabalho na **Playlist Software Solutions**, atuando com suporte técnico, análise de problemas, sistemas, redes e infraestrutura. Paralelamente, desenvolvo projetos próprios para aprofundar meus conhecimentos e transformar ideias em software.
-
-Meu foco atual está principalmente em **C++, C#, TypeScript, Python e Go**, explorando desde aplicações desktop e APIs até aplicações web, bancos de dados e infraestrutura.
-
-<br>
+<p align="center">
+  <a href="https://www.linkedin.com/in/caio-oliveira-pacifico-a6042b246">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://github.com/caio-kenai">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=caio-kenai&style=for-the-badge&color=7AA2F7&label=PROFILE+VIEWS" />
+</p>
 
 ---
 
-## Sobre mim
+### 👋 About me
+
+- 💻 Developer working across **desktop, web, mobile and infrastructure**
+- 🎧 Building **Windows audio tools** in C++ with JUCE
+- 🌐 Shipping web and mobile apps with **TypeScript, React, Next.js and Expo**
+- ⚙️ Enjoy automation, backend services and anything that runs on **Docker + Linux**
+
+---
+
+### 🛠️ Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=cpp,cs,ts,py,go,rust,dart&theme=dark" /><br>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,vue,angular,flutter,electron&theme=dark" /><br>
+  <img src="https://skillicons.dev/icons?i=dotnet,nodejs,nestjs,express,fastapi,flask&theme=dark" /><br>
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,mongodb,redis,supabase&theme=dark" /><br>
+  <img src="https://skillicons.dev/icons?i=docker,linux,windows,git,github&theme=dark" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/JUCE-00A98F?style=flat-square&logo=juce&logoColor=white" />
+  <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" />
+  <img src="https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Wails-DF0000?style=flat-square&logo=wails&logoColor=white" />
+  <img src="https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white" />
+  <img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white" />
+</p>
+
+---
+
+### 🚀 Featured Projects
 
 <table>
 <tr>
-<td width="60%" valign="top">
+<td width="50%" valign="top">
 
-### Desenvolvimento
+#### 🎚️ [Audioslave](https://github.com/caio-kenai/Audioslave)
+Windows service built with **JUCE** that monitors audio devices, disables exclusive mode and can standardize sample rate and bit depth.
 
-- Desenvolvimento de software e aplicações desktop
-- Desenvolvimento web e APIs
-- Sistemas de áudio e integração com Windows
-- Aplicações mobile
-- Bancos de dados relacionais e NoSQL
-- Docker, redes e infraestrutura
-- Sistemas self-hosted e automação
-- Arquitetura e organização de software
+<img src="https://skillicons.dev/icons?i=cpp,windows" height="32" />
 
 </td>
+<td width="50%" valign="top">
 
-<td width="40%" align="center" valign="middle">
+#### 🐕 [Audio Watchdog](https://github.com/caio-kenai/Audio-Watchdog)
+Lightweight Windows service that continuously watches audio devices and keeps exclusive mode turned off.
 
-<h3>SOFTWARE DEVELOPMENT</h3>
+<img src="https://skillicons.dev/icons?i=cpp,windows" height="32" />
 
-<p>
-C++ · .NET<br>
-TypeScript · Python<br>
-Go · SQL
-</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-<p>
-BUILD · TEST · SHIP
-</p>
+#### 💰 [Troqito](https://github.com/caio-kenai/Troqito)
+Open source mobile app for personal finance management and expense tracking.
+
+<img src="https://skillicons.dev/icons?i=ts,react" height="32" />
+
+</td>
+<td width="50%" valign="top">
+
+#### 🧑‍💻 [Portfolio](https://github.com/caio-kenai/Portfolio)
+Open source portfolio showcasing my projects and the technologies I work with.
+
+<img src="https://skillicons.dev/icons?i=ts,react,nextjs" height="32" />
 
 </td>
 </tr>
@@ -49,214 +94,30 @@ BUILD · TEST · SHIP
 
 ---
 
-# Tech Stack
+### 📊 GitHub Stats
 
-## Linguagens
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=cpp,cs,ts,js,python,go,dart" />
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=caio-kenai&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&include_all_commits=true&count_private=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=caio-kenai&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=00000000" />
 </p>
 
-## Frontend
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,react,nextjs,vue,angular" />
-</p>
-
-## Backend
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=dotnet,nodejs,nestjs" />
-  <img src="https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
-</p>
-
-## Desktop & Mobile
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=electron,flutter" />
-  <img src="https://img.shields.io/badge/JUCE-8A2BE2?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/Wails-DF0000?style=for-the-badge&logo=go&logoColor=white" />
-</p>
-
-## Bancos de Dados
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,mariadb,sqlite,mongodb,redis" />
-</p>
-
-<p align="left">
-  <img src="https://img.shields.io/badge/NoSQL-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
-</p>
-
-## Ferramentas & Infraestrutura
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=git,github,docker,linux,windows" />
-</p>
-
-## Tecnologias & Conceitos
-
-<p align="left">
-  <img src="https://img.shields.io/badge/REST%20API-161B22?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/Self--Hosting-161B22?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/Networking-161B22?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/Automation-161B22?style=for-the-badge&logoColor=white" />
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=caio-kenai&theme=tokyonight&hide_border=true&background=00000000" />
 </p>
 
 ---
 
-# Projetos em Destaque
+### 🐍 Contribution Activity
 
-<table>
-<tr>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/caio-kenai/caio-kenai/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/caio-kenai/caio-kenai/output/github-snake.svg" />
+    <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/caio-kenai/caio-kenai/output/github-snake.svg" width="100%" />
+  </picture>
+</p>
 
-<td width="50%" valign="top">
-
-### Audioslave
-
-Ferramenta desktop desenvolvida em C++ para gerenciamento e monitoramento de dispositivos de áudio do Windows.
-
-Explora integração com o sistema operacional, gerenciamento de dispositivos e controle de áudio.
-
-**C++ · JUCE · Windows · Audio**
-
-<br>
-
-<a href="https://github.com/caio-kenai/Audioslave">
-  <img src="https://img.shields.io/badge/Ver%20projeto-161B22?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
-</td>
-
-<td width="50%" valign="top">
-
-### Audio Watchdog
-
-Serviço para Windows desenvolvido para monitorar dispositivos de áudio e desativar automaticamente o modo exclusivo.
-
-O objetivo é manter aplicações de áudio funcionando de forma consistente.
-
-**C++ · Windows · Audio**
-
-<br>
-
-<a href="https://github.com/caio-kenai/Audio-Watchdog">
-  <img src="https://img.shields.io/badge/Ver%20projeto-161B22?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="50%" valign="top">
-
-### Troqito
-
-Aplicativo mobile open source voltado para gerenciamento e controle financeiro.
-
-**TypeScript · Flutter · Mobile**
-
-<br>
-
-<a href="https://github.com/caio-kenai/Troqito">
-  <img src="https://img.shields.io/badge/Ver%20projeto-161B22?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
-</td>
-
-<td width="50%" valign="top">
-
-### Portfolio
-
-Portfólio pessoal desenvolvido para apresentar projetos, experiências e trabalhos.
-
-**TypeScript · React · Web**
-
-<br>
-
-<a href="https://github.com/caio-kenai/Portfolio">
-  <img src="https://img.shields.io/badge/Ver%20projeto-161B22?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
-</td>
-
-</tr>
-</table>
-
----
-
-# Em desenvolvimento
-
-### C++ / JUCE
-
-- Aplicações desktop
-- Desenvolvimento de áudio
-- Integração com Windows
-- Sistemas nativos
-
-### TypeScript
-
-- React
-- Next.js
-- Node.js
-- NestJS
-- Vue.js
-- Angular
-
-### Backend & Dados
-
-- .NET
-- ASP.NET Core
-- PostgreSQL
-- MySQL / MariaDB
-- SQLite
-- MongoDB
-- Redis
-- NoSQL
-
-### Desktop & Mobile
-
-- JUCE
-- Electron
-- Wails
-- Flutter
-
-### Infraestrutura
-
-- Docker
-- Linux
-- Windows
-- Redes
-- Self-hosting
-- Automação
-
----
-
-# GitHub
-
-<div align="center">
-
-<img
-  src="https://raw.githubusercontent.com/caio-kenai/caio-kenai/output/github-contribution-grid-snake-dark.svg"
-  alt="GitHub contribution snake"
-/>
-
-</div>
-
----
-
-# Contato
-
-<p align="left">
-
-<a href="https://www.linkedin.com/in/caio-oliveira-pacifico-a6042b246">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-
-<a href="https://github.com/caio-kenai">
-  <img src="https://img.shields.io/badge/GitHub-161B22?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
+<!-- Footer -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:BB9AF7,100:7AA2F7&height=120&section=footer" width="100%" />
 </p>
