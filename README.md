@@ -66,7 +66,9 @@ BUILD · TEST · SHIP
 ## Bancos de Dados
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,mariadb,sqlite,mongodb,redis" />
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,mongodb,redis" />
+  <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" />
+  <img src="https://img.shields.io/badge/NoSQL-4EA94B?style=for-the-badge&logoColor=white" />
 </p>
 
 ## Ferramentas e Infraestrutura
@@ -80,7 +82,6 @@ BUILD · TEST · SHIP
 <p align="left">
   <img src="https://img.shields.io/badge/JUCE-8A2BE2?style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/badge/REST%20API-161B22?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/NoSQL-4EA94B?style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/badge/Self--Hosting-161B22?style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/badge/Networking-161B22?style=for-the-badge&logoColor=white" />
 </p>
@@ -209,19 +210,33 @@ Meu foco de desenvolvimento está principalmente em:
 
 <div align="center">
 
-<a href="https://github.com/caio-kenai">
-  <img
-    height="170"
-    src="https://github-readme-stats.vercel.app/api?username=caio-kenai&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=github_dark"
-  />
-</a>
+<img
+  src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=caio-kenai&theme=github_dark"
+  width="100%"
+/>
 
-<a href="https://github.com/caio-kenai">
-  <img
-    height="170"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=caio-kenai&layout=compact&langs_count=8&hide_border=true&theme=github_dark"
-  />
-</a>
+<br>
+
+<img
+  src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=caio-kenai&theme=github_dark"
+  height="170"
+/>
+
+<img
+  src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=caio-kenai&theme=github_dark"
+  height="170"
+/>
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img
+  src="https://raw.githubusercontent.com/caio-kenai/caio-kenai/output/github-contribution-grid-snake-dark.svg"
+  alt="GitHub contribution snake"
+/>
 
 </div>
 
