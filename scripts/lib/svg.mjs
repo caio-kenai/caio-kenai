@@ -83,13 +83,13 @@ export function seeded(seed) {
 
 export function relativeTime(iso, now = new Date()) {
   const days = Math.floor((now - new Date(iso)) / 86_400_000);
-  if (days <= 0) return 'today';
-  if (days === 1) return 'yesterday';
-  if (days < 30) return `${days} days ago`;
+  if (days <= 0) return 'hoje';
+  if (days === 1) return 'ontem';
+  if (days < 30) return `há ${days} dias`;
   const months = Math.floor(days / 30);
-  if (months < 12) return months === 1 ? '1 month ago' : `${months} months ago`;
+  if (months < 12) return months === 1 ? 'há 1 mês' : `há ${months} meses`;
   const years = Math.floor(days / 365);
-  return years === 1 ? '1 year ago' : `${years} years ago`;
+  return years === 1 ? 'há 1 ano' : `há ${years} anos`;
 }
 
 // Octicons (MIT, GitHub) on a 16x16 grid.

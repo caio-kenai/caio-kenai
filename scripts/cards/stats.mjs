@@ -5,12 +5,12 @@ const H = 230;
 
 export default function stats(data, t) {
   const items = [
-    { label: 'Contributions, last year', value: data.contributionsLastYear, icon: 'pulse', color: t.blue },
-    { label: 'Commits, last year', value: data.commitsLastYear, icon: 'commit', color: t.purple },
+    { label: 'Contribuições no último ano', value: data.contributionsLastYear, icon: 'pulse', color: t.blue },
+    { label: 'Commits no último ano', value: data.commitsLastYear, icon: 'commit', color: t.purple },
     { label: 'Pull requests', value: data.pullRequests, icon: 'pullRequest', color: t.green },
-    { label: 'Stars earned', value: data.stars, icon: 'star', color: t.yellow },
-    { label: 'Public repositories', value: data.publicRepos, icon: 'repo', color: t.cyan },
-    { label: 'Followers', value: data.followers, icon: 'person', color: t.orange },
+    { label: 'Estrelas recebidas', value: data.stars, icon: 'star', color: t.yellow },
+    { label: 'Repositórios públicos', value: data.publicRepos, icon: 'repo', color: t.cyan },
+    { label: 'Seguidores', value: data.followers, icon: 'person', color: t.orange },
   ];
 
   const cells = items
@@ -29,10 +29,10 @@ export default function stats(data, t) {
   return svgDocument({
     width: W,
     height: H,
-    title: 'GitHub stats',
+    title: 'Números no GitHub',
     desc: items.map((i) => `${i.label}: ${i.value}`).join(', '),
     body: `${card(t, W, H)}
-<text x="24" y="40" font-size="17" font-weight="600" fill="${t.text}">GitHub stats</text>
+<text x="24" y="40" font-size="17" font-weight="600" fill="${t.text}">Números no GitHub</text>
 <text x="${W - 24}" y="40" text-anchor="end" class="mono" font-size="12.5" fill="${t.muted}">@${esc(data.login)}</text>
 ${cells}`,
   });

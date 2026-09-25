@@ -4,7 +4,7 @@ import { streaks } from '../lib/github.mjs';
 const W = 1000;
 const H = 270;
 const CHART = { x: 28, y: 98, w: 944, h: 124 };
-const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+const MONTHS = ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez'];
 
 // Catmull-Rom through the weekly totals, converted to cubic Béziers, so the
 // curve passes through every real data point.
@@ -29,7 +29,7 @@ function smoothPath(points) {
 
 function formatDay(iso) {
   const [, m, d] = iso.split('-').map(Number);
-  return `${MONTHS[m - 1]} ${d}`;
+  return `${d} ${MONTHS[m - 1].toLowerCase()}`;
 }
 
 export default function activity(data, t) {
@@ -48,9 +48,9 @@ export default function activity(data, t) {
 
   const { current, longest, best } = streaks(data.days);
   const kpis = [
-    { label: 'Current streak', value: `${current} ${current === 1 ? 'day' : 'days'}`, icon: 'flame', color: t.orange },
-    { label: 'Longest streak', value: `${longest} ${longest === 1 ? 'day' : 'days'}`, icon: 'trophy', color: t.yellow },
-    { label: 'Busiest day', value: `${best.contributionCount} on ${formatDay(best.date)}`, icon: 'calendar', color: t.cyan },
+    { label: 'Sequência atual', value: `${current} ${current === 1 ? 'dia' : 'dias'}`, icon: 'flame', color: t.orange },
+    { label: 'Maior sequência', value: `${longest} ${longest === 1 ? 'dia' : 'dias'}`, icon: 'trophy', color: t.yellow },
+    { label: 'Dia mais ativo', value: `${best.contributionCount} em ${formatDay(best.date)}`, icon: 'calendar', color: t.cyan },
   ];
 
   const kpiMarkup = kpis
@@ -102,13 +102,13 @@ export default function activity(data, t) {
   return svgDocument({
     width: W,
     height: H,
-    title: 'Contribution activity',
-    desc: `${data.contributionsLastYear} contributions in the last year. Current streak ${current} days, longest ${longest} days, peak week ${max} contributions.`,
+    title: 'Atividade no último ano',
+    desc: `${data.contributionsLastYear} contribuições no último ano. Sequência atual de ${current} dias, maior sequência de ${longest} dias, semana mais ativa com ${max} contribuições.`,
     style,
     defs,
     body: `${card(t, W, H)}
-<text x="28" y="44" font-size="17" font-weight="600" fill="${t.text}">Contribution activity</text>
-<text x="28" y="66" font-size="13" fill="${t.muted}"><tspan fill="${t.text}" font-weight="700">${compact(data.contributionsLastYear)}</tspan> contributions in the last year, grouped by week</text>
+<text x="28" y="44" font-size="17" font-weight="600" fill="${t.text}">Atividade no último ano</text>
+<text x="28" y="66" font-size="13" fill="${t.muted}"><tspan fill="${t.text}" font-weight="700">${compact(data.contributionsLastYear)}</tspan> contribuições, somadas por semana</text>
 ${kpiMarkup}
 ${grid}
 <path class="area" d="${area}" fill="url(#fill)"/>
@@ -119,7 +119,7 @@ ${grid}
     <animate attributeName="fill-opacity" values=".35;0;.35" dur="2.4s" repeatCount="indefinite"/>
   </circle>
   <circle cx="${px.toFixed(1)}" cy="${py.toFixed(1)}" r="4.5" fill="${t.surface}" stroke="${t.purple}" stroke-width="2.5"/>
-  <text x="${Math.min(px, CHART.x + CHART.w - 60).toFixed(1)}" y="${(py - 14).toFixed(1)}" text-anchor="middle" class="mono" font-size="12" fill="${t.text}">${max} / week</text>
+  <text x="${Math.min(px, CHART.x + CHART.w - 60).toFixed(1)}" y="${(py - 14).toFixed(1)}" text-anchor="middle" class="mono" font-size="12" fill="${t.text}">${max} na semana</text>
 </g>
 ${ticks.join('\n')}`,
   });

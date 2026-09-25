@@ -4,46 +4,73 @@
 export default {
   login: 'caio-kenai',
   name: 'Caio Pacifico',
-  role: 'Software Developer',
-  tracks: ['Desktop', 'Web', 'Mobile'],
-  location: 'Ipatinga, MG, Brazil',
+  greeting: 'Olá, eu sou o',
+  roles: ['Desenvolvedor Full Stack', 'Apaixonado por frontend', 'TypeScript de coração'],
+  location: 'Ipatinga, MG',
   company: 'Playlist Software Solutions',
+  site: 'kenai.site',
 
-  terminal: [
-    { cmd: 'whoami', out: 'caio-kenai, software developer', color: 'text' },
-    { cmd: 'cat stack.txt', out: 'C++ · C# · TypeScript · Rust · Go · Python', color: 'cyan' },
-    { cmd: 'ls ~/projects --featured', out: 'Audioslave  Audio-Watchdog  Troqito  Portfolio', color: 'purple' },
-    { cmd: 'echo $FOCUS', out: 'audio tooling · offline-first apps · automation', color: 'green' },
+  // Icons orbiting the header illustration.
+  heroIcons: ['ts', 'nextjs', 'nestjs', 'nodejs', 'react', 'tailwind'],
+
+  about: [
+    {
+      title: 'Minha praia',
+      text: ['TypeScript de ponta a ponta:', 'Next.js no front, NestJS e', 'Node.js no back.'],
+      icons: ['ts', 'nextjs', 'nestjs', 'nodejs'],
+      accent: 'blue',
+    },
+    {
+      title: 'Bagagem',
+      text: ['Muita estrada com C#, Python', 'e Go em projetos reais,', 'do desktop à API.'],
+      icons: ['cs', 'py', 'go'],
+      accent: 'purple',
+    },
+    {
+      title: 'Explorando',
+      text: ['Aprendendo a gostar de baixo', 'nível, estudando e trabalhando', 'com C, C++ e Rust.'],
+      icons: ['c', 'cpp', 'rust'],
+      accent: 'orange',
+    },
   ],
+
+  stack: {
+    linguagens: ['ts', 'js', 'c', 'cpp', 'cs', 'py', 'go', 'rust', 'dart'],
+    frontend: ['nextjs', 'react', 'vue', 'angular', 'vite', 'tailwind', 'html', 'css'],
+    backend: ['nodejs', 'nestjs', 'express', 'dotnet', 'fastapi', 'flask'],
+    mobile: ['expo', 'flutter', 'electron', 'tauri', 'wails', 'juce', 'androidstudio'],
+    dados: ['postgres', 'mysql', 'mariadb', 'sqlite', 'mongodb', 'redis', 'supabase', 'drizzle'],
+    infra: ['docker', 'linux', 'windows', 'railway', 'githubactions', 'cmake', 'git', 'github', 'powershell', 'bash'],
+  },
 
   featured: [
     {
       repo: 'Audioslave',
+      logo: 'assets/logos/audioslave.png',
       accent: '#fe6902',
-      summary:
-        'Single-executable Windows audio service on JUCE 9. Keeps every endpoint out of WASAPI exclusive mode, standardizes sample rate and bit depth, and ships a tray launcher, CLI and installer.',
-      tech: ['C++20', 'JUCE', 'WASAPI', 'CMake'],
+      summary: 'Deixa o áudio do Windows sempre no formato certo e livre do modo exclusivo, direto da bandeja.',
+      icons: ['cpp', 'windows', 'cmake'],
     },
     {
       repo: 'Audio-Watchdog',
-      accent: '#7dcfff',
-      summary:
-        'Lightweight C++20 Win32 service with a tray companion that listens to Core Audio device notifications and keeps exclusive mode disabled, so broadcast apps never lose their device.',
-      tech: ['C++20', 'Win32', 'Core Audio', 'CMake'],
+      logo: 'assets/logos/audio-watchdog.png',
+      accent: '#3b82f6',
+      summary: 'Um cão de guarda leve para os dispositivos de áudio, para que nenhum app perca o som.',
+      icons: ['cpp', 'windows'],
     },
     {
       repo: 'Troqito',
-      accent: '#9ece6a',
-      summary:
-        'Offline-first personal and household finance app: accounts, cards, installments, budgets and shared houses with split expenses. Local SQLite is the source of truth; money is integer cents.',
-      tech: ['Expo', 'React Native', 'Drizzle', 'Supabase'],
+      logo: 'assets/logos/troqito.png',
+      accent: '#22c55e',
+      summary: 'Finanças pessoais e da casa num app só, com contas divididas e funcionando até offline.',
+      icons: ['ts', 'expo', 'sqlite', 'supabase'],
     },
     {
       repo: 'Portfolio',
-      accent: '#bb9af7',
-      summary:
-        'kenai.site: bilingual single-page portfolio with zero runtime dependencies. Native DOM, strict TypeScript and pure CSS, with no CDN, analytics or third-party requests.',
-      tech: ['TypeScript', 'Vite', 'CSS'],
+      logo: 'assets/logos/portfolio.svg',
+      accent: '#22d3c5',
+      summary: 'Meu portfólio em kenai.site: bilíngue, tema claro e escuro, feito sem framework.',
+      icons: ['ts', 'vite', 'css'],
     },
   ],
 

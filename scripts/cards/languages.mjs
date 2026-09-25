@@ -9,7 +9,7 @@ export default function languages(data, t, { top = 7, exclude = [] } = {}) {
   const total = all.reduce((sum, l) => sum + l.size, 0) || 1;
   const shown = all.slice(0, top).map((l) => ({ ...l, share: l.size / total }));
   const rest = 1 - shown.reduce((sum, l) => sum + l.share, 0);
-  if (rest > 0.0005) shown.push({ name: 'Other', color: t.faint, share: rest });
+  if (rest > 0.0005) shown.push({ name: 'Outras', color: t.faint, share: rest });
 
   // Segments grow from zero in sequence, like a meter filling up.
   let cursor = BAR.x;
@@ -40,12 +40,12 @@ export default function languages(data, t, { top = 7, exclude = [] } = {}) {
   return svgDocument({
     width: W,
     height: H,
-    title: 'Top languages',
+    title: 'Linguagens mais usadas',
     desc: shown.map((l) => `${l.name} ${(l.share * 100).toFixed(1)}%`).join(', '),
     defs: `<clipPath id="bar"><rect x="${BAR.x}" y="${BAR.y}" width="${BAR.w}" height="${BAR.h}" rx="5"/></clipPath>`,
     body: `${card(t, W, H)}
-<text x="24" y="40" font-size="17" font-weight="600" fill="${t.text}">Top languages</text>
-<text x="${W - 24}" y="40" text-anchor="end" font-size="12.5" fill="${t.muted}">by code size, own public repos</text>
+<text x="24" y="40" font-size="17" font-weight="600" fill="${t.text}">Linguagens mais usadas</text>
+<text x="${W - 24}" y="40" text-anchor="end" font-size="12.5" fill="${t.muted}">por volume de código</text>
 <rect x="${BAR.x}" y="${BAR.y}" width="${BAR.w}" height="${BAR.h}" rx="5" fill="${t.surfaceAlt}"/>
 <g clip-path="url(#bar)">${segments}</g>
 ${legend}`,
