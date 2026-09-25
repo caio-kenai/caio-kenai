@@ -1,0 +1,9 @@
+{
+  "name": "caio-kenai-profile",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "generate": "node scripts/generate.mjs dist"
+  }
+}
