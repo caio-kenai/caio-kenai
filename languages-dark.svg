@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="230" viewBox="0 0 480 230" role="img" aria-labelledby="t d">
+<title id="t">Linguagens mais usadas</title>
+<desc id="d">C++ 68.0%, TypeScript 23.4%, JavaScript 2.5%, CSS 2.0%, CMake 1.4%, Python 1.3%, HTML 0.9%, Outras 0.5%</desc>
+<style>
+text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+.mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', 'Cascadia Code', Menlo, Consolas, 'Liberation Mono', monospace; }
+.fade-up { opacity: 0; animation: fade-up .6s cubic-bezier(.2,.7,.2,1) forwards; }
+@keyframes fade-up { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; opacity: 1 !important; } }
+</style>
+<defs><clipPath id="bar"><rect x="24" y="60" width="432" height="10" rx="5"/></clipPath></defs>
+<rect x=".5" y=".5" width="479" height="229" rx="12" fill="#161b22" stroke="#30363d"/>
+<text x="24" y="40" font-size="17" font-weight="600" fill="#e6edf3">Linguagens mais usadas</text>
+<text x="456" y="40" text-anchor="end" font-size="12.5" fill="#8b949e">por volume de código</text>
+<rect x="24" y="60" width="432" height="10" rx="5" fill="#1c2230"/>
+<g clip-path="url(#bar)"><rect x="24.00" y="60" width="0" height="10" fill="#f34b7d">
+  <animate attributeName="width" from="0" to="293.80" dur=".5s" begin="0.20s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .7 .2 1"/>
+</rect>
+<rect x="317.80" y="60" width="0" height="10" fill="#3178c6">
+  <animate attributeName="width" from="0" to="101.28" dur=".5s" begin="0.32s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .7 .2 1"/>
+</rect>
+<rect x="419.09" y="60" width="0" height="10" fill="#f1e05a">
+  <animate attributeName="width" from="0" to="10.92" dur=".5s" begin="0.44s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .7 .2 1"/>
+</rect>
+<rect x="430.01" y="60" width="0" height="10" fill="#663399">
+  <animate attributeName="width" from="0" to="8.43" dur=".5s" begin="0.56s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .7 .2 1"/>
+</rect>
+<rect x="438.44" y="60" width="0" height="10" fill="#DA3434">
+  <animate attributeName="width" from="0" to="6.16" dur=".5s" begin="0.68s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .7 .2 1"/>
+</rect>
+<rect x="444.60" y="60" width="0" height="10" fill="#3572A5">
+  <animate attributeName="width" from="0" to="5.51" dur=".5s" begin="0.80s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .7 .2 1"/>
+</rect>
+<rect x="450.11" y="60" width="0" height="10" fill="#e34c26">
+  <animate attributeName="width" from="0" to="3.82" dur=".5s" begin="0.92s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .7 .2 1"/>
+</rect>
+<rect x="453.92" y="60" width="0" height="10" fill="#484f58">
+  <animate attributeName="width" from="0" to="2.08" dur=".5s" begin="1.04s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .7 .2 1"/>
+</rect></g>
+<g class="fade-up" style="animation-delay:0.30s">
+  <circle cx="29" cy="104" r="5" fill="#f34b7d"/>
+  <text x="42" y="108" font-size="14" fill="#e6edf3">C++</text>
+  <text x="230" y="108" text-anchor="end" class="mono" font-size="12.5" fill="#8b949e">68.0%</text>
+</g>
+<g class="fade-up" style="animation-delay:0.37s">
+  <circle cx="29" cy="134" r="5" fill="#3178c6"/>
+  <text x="42" y="138" font-size="14" fill="#e6edf3">TypeScript</text>
+  <text x="230" y="138" text-anchor="end" class="mono" font-size="12.5" fill="#8b949e">23.4%</text>
+</g>
+<g class="fade-up" style="animation-delay:0.44s">
+  <circle cx="29" cy="164" r="5" fill="#f1e05a"/>
+  <text x="42" y="168" font-size="14" fill="#e6edf3">JavaScript</text>
+  <text x="230" y="168" text-anchor="end" class="mono" font-size="12.5" fill="#8b949e">2.5%</text>
+</g>
+<g class="fade-up" style="animation-delay:0.51s">
+  <circle cx="29" cy="194" r="5" fill="#663399"/>
+  <text x="42" y="198" font-size="14" fill="#e6edf3">CSS</text>
+  <text x="230" y="198" text-anchor="end" class="mono" font-size="12.5" fill="#8b949e">2.0%</text>
+</g>
+<g class="fade-up" style="animation-delay:0.58s">
+  <circle cx="255" cy="104" r="5" fill="#DA3434"/>
+  <text x="268" y="108" font-size="14" fill="#e6edf3">CMake</text>
+  <text x="456" y="108" text-anchor="end" class="mono" font-size="12.5" fill="#8b949e">1.4%</text>
+</g>
+<g class="fade-up" style="animation-delay:0.65s">
+  <circle cx="255" cy="134" r="5" fill="#3572A5"/>
+  <text x="268" y="138" font-size="14" fill="#e6edf3">Python</text>
+  <text x="456" y="138" text-anchor="end" class="mono" font-size="12.5" fill="#8b949e">1.3%</text>
+</g>
+<g class="fade-up" style="animation-delay:0.72s">
+  <circle cx="255" cy="164" r="5" fill="#e34c26"/>
+  <text x="268" y="168" font-size="14" fill="#e6edf3">HTML</text>
+  <text x="456" y="168" text-anchor="end" class="mono" font-size="12.5" fill="#8b949e">0.9%</text>
+</g>
+<g class="fade-up" style="animation-delay:0.79s">
+  <circle cx="255" cy="194" r="5" fill="#484f58"/>
+  <text x="268" y="198" font-size="14" fill="#e6edf3">Outras</text>
+  <text x="456" y="198" text-anchor="end" class="mono" font-size="12.5" fill="#8b949e">0.5%</text>
+</g>
+</svg>

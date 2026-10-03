@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="270" viewBox="0 0 1000 270" role="img" aria-labelledby="t d">
+<title id="t">Atividade no último ano</title>
+<desc id="d">327 contribuições no último ano. Sequência atual de 0 dias, maior sequência de 5 dias, semana mais ativa com 126 contribuições.</desc>
+<style>
+text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+.mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', 'Cascadia Code', Menlo, Consolas, 'Liberation Mono', monospace; }
+.fade-up { opacity: 0; animation: fade-up .6s cubic-bezier(.2,.7,.2,1) forwards; }
+@keyframes fade-up { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
+.line { stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 2.2s cubic-bezier(.4,.1,.2,1) .3s forwards; }
+@keyframes draw { to { stroke-dashoffset: 0; } }
+.area { opacity: 0; animation: show 1s ease 1.6s forwards; }
+.peak { opacity: 0; animation: show .4s ease 2.4s forwards; }
+@keyframes show { to { opacity: 1; } }
+
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; opacity: 1 !important; } }
+</style>
+<defs>
+<linearGradient id="stroke" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#2e7de9"/><stop offset="1" stop-color="#9854f1"/>
+</linearGradient>
+<linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#9854f1" stop-opacity=".32"/><stop offset="1" stop-color="#2e7de9" stop-opacity="0"/>
+</linearGradient></defs>
+<rect x=".5" y=".5" width="999" height="269" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="28" y="44" font-size="17" font-weight="600" fill="#1f2328">Atividade no último ano</text>
+<text x="28" y="66" font-size="13" fill="#59636e"><tspan fill="#1f2328" font-weight="700">327</tspan> contribuições, somadas por semana</text>
+<g class="fade-up" style="animation-delay:0.15s">
+  <rect x="470" y="26" width="34" height="34" rx="9" fill="#b15c00" fill-opacity=".14"/>
+  <path transform="translate(479 35) scale(1)" d="M9.533.753V.752c.217 2.385 1.463 3.626 2.653 4.81C13.37 6.74 14.498 7.863 14.498 10c0 3.5-3 6-6.5 6S1.5 13.512 1.5 10c0-1.298.536-2.56 1.425-3.286.376-.308.862 0 1.035.454C4.46 8.487 5.581 8.419 6 8c.282-.282.341-.811-.003-1.5C4.34 3.187 7.035.75 8.77.146c.39-.137.726.194.763.607ZM7.998 14.5c2.832 0 5-1.98 5-4.5 0-1.463-.68-2.19-1.879-3.383l-.036-.037c-1.013-1.008-2.3-2.29-2.834-4.434-.322.256-.63.579-.864.953-.432.696-.621 1.58-.046 2.73.473.947.67 2.284-.278 3.232-.61.61-1.545.84-2.403.633a2.79 2.79 0 0 1-1.436-.874A3.198 3.198 0 0 0 3 10c0 2.53 2.164 4.5 4.998 4.5Z" fill="#b15c00"/>
+  <text x="514" y="39" font-size="12" fill="#59636e">Sequência atual</text>
+  <text x="514" y="58" font-size="16" font-weight="700" fill="#1f2328">0 dias</text>
+</g>
+<g class="fade-up" style="animation-delay:0.25s">
+  <rect x="642" y="26" width="34" height="34" rx="9" fill="#8c6c3e" fill-opacity=".14"/>
+  <path transform="translate(651 35) scale(1)" d="M3.217 6.962A3.75 3.75 0 0 1 0 3.25v-.5C0 1.784.784 1 1.75 1h1.356c.228-.585.796-1 1.462-1h6.864c.647 0 1.227.397 1.462 1h1.356c.966 0 1.75.784 1.75 1.75v.5a3.75 3.75 0 0 1-3.217 3.712 5.014 5.014 0 0 1-2.771 3.117l.144 1.446c.005.05.03.12.114.204.086.087.217.17.373.227.283.103.618.274.89.568.285.308.467.72.467 1.226v.75h1.25a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1 0-1.5H4v-.75c0-.505.182-.918.468-1.226.272-.294.606-.465.889-.568.139-.048.266-.126.373-.227.084-.085.109-.153.114-.204l.144-1.446a5.015 5.015 0 0 1-2.77-3.117ZM4.5 1.568V5.5a3.5 3.5 0 1 0 7 0V1.568a.068.068 0 0 0-.068-.068H4.568a.068.068 0 0 0-.068.068Zm2.957 8.902-.12 1.204c-.093.925-.858 1.47-1.467 1.691a.766.766 0 0 0-.3.176c-.037.04-.07.093-.07.21v.75h5v-.75c0-.117-.033-.17-.07-.21a.766.766 0 0 0-.3-.176c-.609-.221-1.374-.766-1.466-1.69l-.12-1.204a5.064 5.064 0 0 1-1.087 0ZM13 2.5v2.872a2.25 2.25 0 0 0 1.5-2.122v-.5a.25.25 0 0 0-.25-.25H13Zm-10 0H1.75a.25.25 0 0 0-.25.25v.5c0 .98.626 1.813 1.5 2.122Z" fill="#8c6c3e"/>
+  <text x="686" y="39" font-size="12" fill="#59636e">Maior sequência</text>
+  <text x="686" y="58" font-size="16" font-weight="700" fill="#1f2328">5 dias</text>
+</g>
+<g class="fade-up" style="animation-delay:0.35s">
+  <rect x="814" y="26" width="34" height="34" rx="9" fill="#007197" fill-opacity=".14"/>
+  <path transform="translate(823 35) scale(1)" d="M4.75 0a.75.75 0 0 1 .75.75V2h5V.75a.75.75 0 0 1 1.5 0V2h1.25c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0 1 13.25 16H2.75A1.75 1.75 0 0 1 1 14.25V3.75C1 2.784 1.784 2 2.75 2H4V.75A.75.75 0 0 1 4.75 0ZM2.5 7.5v6.75c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25V7.5Zm10.75-4H2.75a.25.25 0 0 0-.25.25V6h11V3.75a.25.25 0 0 0-.25-.25Z" fill="#007197"/>
+  <text x="858" y="39" font-size="12" fill="#59636e">Dia mais ativo</text>
+  <text x="858" y="58" font-size="16" font-weight="700" fill="#1f2328">49 em 27 set</text>
+</g>
+<path d="M28 191.0H972" stroke="#d0d7de" stroke-dasharray="3 5"/>
+<path d="M28 160.0H972" stroke="#d0d7de" stroke-dasharray="3 5"/>
+<path d="M28 129.0H972" stroke="#d0d7de" stroke-dasharray="3 5"/>
+<path d="M28 98.0H972" stroke="#d0d7de" stroke-dasharray="3 5"/>
+<path class="area" d="M28.0 222.0 C31.0 222.0 40.1 222.0 46.2 222.0 C52.2 218.3 58.3 199.9 64.3 199.9 C70.4 199.9 76.4 218.3 82.5 222.0 C88.5 222.0 94.6 222.0 100.6 222.0 C106.7 222.0 112.7 222.0 118.8 222.0 C124.8 222.0 130.9 222.0 136.9 222.0 C143.0 222.0 149.0 222.0 155.1 222.0 C161.1 215.4 167.2 182.2 173.2 182.2 C179.3 182.2 185.3 215.4 191.4 222.0 C197.4 222.0 203.5 222.0 209.5 222.0 C215.6 222.0 221.6 222.0 227.7 222.0 C233.7 222.0 239.8 222.0 245.8 222.0 C251.9 222.0 257.9 222.0 264.0 222.0 C270.1 222.0 276.1 222.0 282.2 222.0 C288.2 222.0 294.3 222.0 300.3 222.0 C306.4 222.0 312.4 222.0 318.5 222.0 C324.5 222.0 330.6 222.0 336.6 222.0 C342.7 222.0 348.7 222.0 354.8 222.0 C360.8 222.0 366.9 222.0 372.9 222.0 C379.0 222.0 385.0 222.0 391.1 222.0 C397.1 222.0 403.2 222.0 409.2 222.0 C415.3 222.0 421.3 222.0 427.4 222.0 C433.4 219.4 439.5 206.4 445.5 206.4 C451.6 206.4 457.6 219.4 463.7 222.0 C469.7 222.0 475.8 222.0 481.8 222.0 C487.9 222.0 493.9 222.0 500.0 222.0 C506.1 222.0 512.1 222.0 518.2 222.0 C524.2 222.0 530.3 222.0 536.3 222.0 C542.4 222.0 548.4 222.0 554.5 222.0 C560.5 222.0 566.6 222.0 572.6 222.0 C578.7 222.0 584.7 222.0 590.8 222.0 C596.8 222.0 602.9 222.0 608.9 222.0 C615.0 222.0 621.0 222.0 627.1 222.0 C633.1 222.0 639.2 222.0 645.2 222.0 C651.3 222.0 657.3 222.0 663.4 222.0 C669.4 222.0 675.5 222.0 681.5 222.0 C687.6 222.0 693.6 222.0 699.7 222.0 C705.7 219.4 711.8 206.4 717.8 206.4 C723.9 206.4 729.9 219.4 736.0 222.0 C742.1 222.0 748.1 222.0 754.2 222.0 C760.2 217.1 766.3 202.0 772.3 192.8 C778.4 183.6 784.4 176.4 790.5 166.8 C796.5 157.1 802.6 146.5 808.6 135.0 C814.7 123.6 820.7 83.5 826.8 98.0 C832.8 112.5 838.9 201.3 844.9 222.0 C851.0 222.0 857.0 222.0 863.1 222.0 C869.1 217.1 875.2 192.8 881.2 192.8 C887.3 192.8 893.3 217.1 899.4 222.0 C905.4 222.0 911.5 222.0 917.5 222.0 C923.6 220.2 929.6 220.9 935.7 211.0 C941.7 201.0 947.8 173.6 953.8 162.5 C959.9 151.5 969.0 147.6 972.0 144.7 L972 222 L28 222 Z" fill="url(#fill)"/>
+<path class="line" d="M28.0 222.0 C31.0 222.0 40.1 222.0 46.2 222.0 C52.2 218.3 58.3 199.9 64.3 199.9 C70.4 199.9 76.4 218.3 82.5 222.0 C88.5 222.0 94.6 222.0 100.6 222.0 C106.7 222.0 112.7 222.0 118.8 222.0 C124.8 222.0 130.9 222.0 136.9 222.0 C143.0 222.0 149.0 222.0 155.1 222.0 C161.1 215.4 167.2 182.2 173.2 182.2 C179.3 182.2 185.3 215.4 191.4 222.0 C197.4 222.0 203.5 222.0 209.5 222.0 C215.6 222.0 221.6 222.0 227.7 222.0 C233.7 222.0 239.8 222.0 245.8 222.0 C251.9 222.0 257.9 222.0 264.0 222.0 C270.1 222.0 276.1 222.0 282.2 222.0 C288.2 222.0 294.3 222.0 300.3 222.0 C306.4 222.0 312.4 222.0 318.5 222.0 C324.5 222.0 330.6 222.0 336.6 222.0 C342.7 222.0 348.7 222.0 354.8 222.0 C360.8 222.0 366.9 222.0 372.9 222.0 C379.0 222.0 385.0 222.0 391.1 222.0 C397.1 222.0 403.2 222.0 409.2 222.0 C415.3 222.0 421.3 222.0 427.4 222.0 C433.4 219.4 439.5 206.4 445.5 206.4 C451.6 206.4 457.6 219.4 463.7 222.0 C469.7 222.0 475.8 222.0 481.8 222.0 C487.9 222.0 493.9 222.0 500.0 222.0 C506.1 222.0 512.1 222.0 518.2 222.0 C524.2 222.0 530.3 222.0 536.3 222.0 C542.4 222.0 548.4 222.0 554.5 222.0 C560.5 222.0 566.6 222.0 572.6 222.0 C578.7 222.0 584.7 222.0 590.8 222.0 C596.8 222.0 602.9 222.0 608.9 222.0 C615.0 222.0 621.0 222.0 627.1 222.0 C633.1 222.0 639.2 222.0 645.2 222.0 C651.3 222.0 657.3 222.0 663.4 222.0 C669.4 222.0 675.5 222.0 681.5 222.0 C687.6 222.0 693.6 222.0 699.7 222.0 C705.7 219.4 711.8 206.4 717.8 206.4 C723.9 206.4 729.9 219.4 736.0 222.0 C742.1 222.0 748.1 222.0 754.2 222.0 C760.2 217.1 766.3 202.0 772.3 192.8 C778.4 183.6 784.4 176.4 790.5 166.8 C796.5 157.1 802.6 146.5 808.6 135.0 C814.7 123.6 820.7 83.5 826.8 98.0 C832.8 112.5 838.9 201.3 844.9 222.0 C851.0 222.0 857.0 222.0 863.1 222.0 C869.1 217.1 875.2 192.8 881.2 192.8 C887.3 192.8 893.3 217.1 899.4 222.0 C905.4 222.0 911.5 222.0 917.5 222.0 C923.6 220.2 929.6 220.9 935.7 211.0 C941.7 201.0 947.8 173.6 953.8 162.5 C959.9 151.5 969.0 147.6 972.0 144.7" pathLength="1" fill="none" stroke="url(#stroke)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<g class="peak">
+  <circle cx="826.8" cy="98.0" r="5" fill="#9854f1" fill-opacity=".35">
+    <animate attributeName="r" values="5;13;5" dur="2.4s" repeatCount="indefinite"/>
+    <animate attributeName="fill-opacity" values=".35;0;.35" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="826.8" cy="98.0" r="4.5" fill="#f6f8fa" stroke="#9854f1" stroke-width="2.5"/>
+  <text x="826.8" y="84.0" text-anchor="middle" class="mono" font-size="12" fill="#1f2328">126 na semana</text>
+</g>
+<text x="46.2" y="246" text-anchor="middle" font-size="12" fill="#59636e">Out</text>
+<text x="118.8" y="246" text-anchor="middle" font-size="12" fill="#59636e">Nov</text>
+<text x="209.5" y="246" text-anchor="middle" font-size="12" fill="#59636e">Dez</text>
+<text x="282.2" y="246" text-anchor="middle" font-size="12" fill="#59636e">Jan</text>
+<text x="354.8" y="246" text-anchor="middle" font-size="12" fill="#59636e">Fev</text>
+<text x="427.4" y="246" text-anchor="middle" font-size="12" fill="#59636e">Mar</text>
+<text x="518.2" y="246" text-anchor="middle" font-size="12" fill="#59636e">Abr</text>
+<text x="590.8" y="246" text-anchor="middle" font-size="12" fill="#59636e">Mai</text>
+<text x="681.5" y="246" text-anchor="middle" font-size="12" fill="#59636e">Jun</text>
+<text x="754.2" y="246" text-anchor="middle" font-size="12" fill="#59636e">Jul</text>
+<text x="826.8" y="246" text-anchor="middle" font-size="12" fill="#59636e">Ago</text>
+<text x="917.5" y="246" text-anchor="middle" font-size="12" fill="#59636e">Set</text>
+</svg>
