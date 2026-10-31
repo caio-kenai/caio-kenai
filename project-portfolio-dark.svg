@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="220" viewBox="0 0 480 220" role="img" aria-labelledby="t d">
+<title id="t">Portfolio</title>
+<desc id="d">Meu portfólio em kenai.site: bilíngue, tema claro e escuro, feito sem framework. 2 estrelas.</desc>
+<style>
+text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+.mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', 'Cascadia Code', Menlo, Consolas, 'Liberation Mono', monospace; }
+.fade-up { opacity: 0; animation: fade-up .6s cubic-bezier(.2,.7,.2,1) forwards; }
+@keyframes fade-up { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
+.shine { animation: shine 5s ease-in-out infinite; }
+@keyframes shine { 0% { transform: translateX(-160px); } 60%, 100% { transform: translateX(640px); } }
+.halo { animation: halo 3.2s ease-in-out infinite alternate; transform-box: fill-box; transform-origin: center; }
+@keyframes halo { from { transform: scale(.85); opacity: .35; } to { transform: scale(1.15); opacity: .7; } }
+.logo { opacity: 0; transform-box: fill-box; transform-origin: center; animation: pop .6s cubic-bezier(.3,1.5,.5,1) .05s forwards; }
+@keyframes pop { from { opacity: 0; transform: scale(.6) rotate(-8deg); } to { opacity: 1; transform: none; } }
+.arrow { animation: nudge 1.6s ease-in-out infinite; }
+@keyframes nudge { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(4px); } }
+
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; opacity: 1 !important; } }
+</style>
+<defs>
+<clipPath id="edge"><rect width="480" height="220" rx="14"/></clipPath>
+<clipPath id="logoClip"><rect x="24" y="26" width="76" height="76" rx="20"/></clipPath>
+<linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+  <stop offset=".5" stop-color="#ffffff" stop-opacity=".85"/>
+  <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="cta" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#22d3c5"/><stop offset="1" stop-color="#22d3c5" stop-opacity=".7"/>
+</linearGradient>
+<filter id="soft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="16"/></filter></defs>
+<rect x=".5" y=".5" width="479" height="219" rx="14" fill="#161b22" stroke="#30363d"/>
+<g clip-path="url(#edge)">
+  <circle cx="450" cy="10" r="90" fill="#22d3c5" opacity=".12" filter="url(#soft)"/>
+  <rect width="480" height="4" fill="#22d3c5"/>
+  <rect class="shine" x="0" width="140" height="4" fill="url(#sweep)" opacity=".7"/>
+</g>
+<circle class="halo" cx="62" cy="64" r="38" fill="#22d3c5" filter="url(#soft)"/>
+<g class="logo"><image href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJrZW5haS5kZXYiPgogIDxyZWN0IHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgcng9IjciIGZpbGw9IiMwYjBkMGUiIC8+CiAgPHBhdGgKICAgIGQ9Ik04IDEwLjUgTDEzLjUgMTYgTDggMjEuNSIKICAgIGZpbGw9Im5vbmUiCiAgICBzdHJva2U9IiMyMmQzYzUiCiAgICBzdHJva2Utd2lkdGg9IjIuNiIKICAgIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICAgIHN0cm9rZS1saW5lam9pbj0icm91bmQiCiAgLz4KICA8cGF0aCBkPSJNMTYuOCAyMS44IEgyNCIgc3Ryb2tlPSIjMjJkM2M1IiBzdHJva2Utd2lkdGg9IjIuNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiAvPgo8L3N2Zz4K" x="24" y="26" width="76" height="76" clip-path="url(#logoClip)" preserveAspectRatio="xMidYMid meet"/></g>
+<g class="fade-up" style="animation-delay:.1s">
+  <text x="120" y="56" font-size="22" font-weight="800" fill="#e6edf3">Portfolio</text>
+  <path transform="translate(120 72) scale(0.875)" d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="#e0af68"/>
+  <text x="140" y="84" font-size="13.5" font-weight="600" fill="#e6edf3">2</text>
+  <rect x="164" y="68" width="160" height="22" rx="11" fill="#ff9e64" fill-opacity=".14"/>
+  <path transform="translate(174 72) scale(0.8125)" d="M1 7.775V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 0 1 0 2.474l-5.026 5.026a1.75 1.75 0 0 1-2.474 0l-6.25-6.25A1.752 1.752 0 0 1 1 7.775Zm1.5 0c0 .066.026.13.073.177l6.25 6.25a.25.25 0 0 0 .354 0l5.025-5.025a.25.25 0 0 0 0-.354l-6.25-6.25a.25.25 0 0 0-.177-.073H2.75a.25.25 0 0 0-.25.25ZM6 5a1 1 0 1 1 0 2 1 1 0 0 1 0-2Z" fill="#ff9e64"/>
+  <text x="192" y="83" font-size="12" font-weight="600" fill="#ff9e64">em desenvolvimento</text>
+</g>
+<g class="fade-up" style="animation-delay:.2s">
+  <text x="24" y="128" font-size="15" fill="#8b949e">Meu portfólio em kenai.site: bilíngue, tema claro e</text>
+  <text x="24" y="150" font-size="15" fill="#8b949e">escuro, feito sem framework.</text>
+</g>
+<g class="fade-up" style="animation-delay:.3s">
+  <image href="data:image/svg+xml;base64,CiAgPHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCAyNTYgMjU2IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiPgogICAgCiAgICAgICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCwgMCkiPgogICAgICAgICAgPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMjU2IDI1NiI+PHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIGZpbGw9IiMwMDdBQ0MiIHJ4PSI2MCIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik01Ni42MTEyIDEyOC44NDlMNTYuNTI5OSAxMzkuMzMzSDczLjE5MDJIODkuODUwNUw4OS44NTA1IDE4Ni42NzNWMjM0LjAxMkgxMDEuNjM1SDExMy40MTlWMTg2LjY3M0wxMTMuNDE5IDEzOS4zMzNIMTMwLjA3OUgxNDYuNzM5VjEyOS4wNTJDMTQ2LjczOSAxMjMuMzYzIDE0Ni42MTggMTE4LjYwOSAxNDYuNDU1IDExOC40ODdDMTQ2LjMzMyAxMTguMzI1IDEyNi4wNTYgMTE4LjI0MyAxMDEuNDcyIDExOC4yODRMNTYuNzMzMSAxMTguNDA2TDU2LjYxMTIgMTI4Ljg0OVoiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMjA2LjU2NyAxMTguMTA4QzIxMy4wNjggMTE5LjczNCAyMTguMDI2IDEyMi42MTkgMjIyLjU3NyAxMjcuMzMyQzIyNC45MzQgMTI5Ljg1MiAyMjguNDI4IDEzNC40NDQgMjI4LjcxMyAxMzUuNTQxQzIyOC43OTQgMTM1Ljg2NiAyMTcuNjYgMTQzLjM0MyAyMTAuOTE1IDE0Ny41MjhDMjEwLjY3MSAxNDcuNjkxIDIwOS42OTUgMTQ2LjYzNCAyMDguNTk4IDE0NS4wMDlDMjA1LjMwNyAxNDAuMjE0IDIwMS44NTMgMTM4LjE0MSAxOTYuNTcgMTM3Ljc3NkMxODguODA5IDEzNy4yNDcgMTgzLjgxMSAxNDEuMzExIDE4My44NTIgMTQ4LjA5N0MxODMuODUyIDE1MC4wODggMTg0LjEzNiAxNTEuMjY2IDE4NC45NDkgMTUyLjg5MkMxODYuNjU1IDE1Ni40MjcgMTg5LjgyNSAxNTguNTQgMTk5Ljc4MSAxNjIuODQ3QzIxOC4xMDcgMTcwLjczMSAyMjUuOTQ5IDE3NS45MzIgMjMwLjgyNiAxODMuMzI3QzIzNi4yNzEgMTkxLjU3NiAyMzcuNDkgMjA0Ljc0MiAyMzMuNzkyIDIxNC41MzVDMjI5LjcyOSAyMjUuMTgxIDIxOS42NTEgMjMyLjQxNCAyMDUuNDY5IDIzNC44MTJDMjAxLjA4MSAyMzUuNTg0IDE5MC42NzggMjM1LjQ2MiAxODUuOTY1IDIzNC42MDlDMTc1LjY4NCAyMzIuNzggMTY1LjkzMiAyMjcuNzAxIDE1OS45MTggMjIxLjAzN0MxNTcuNTYxIDIxOC40MzYgMTUyLjk2OSAyMTEuNjUgMTUzLjI1NCAyMTEuMTYyQzE1My4zNzUgMjExIDE1NC40MzIgMjEwLjM1IDE1NS42MSAyMDkuNjU5QzE1Ni43NDggMjA5LjAwOSAxNjEuMDU2IDIwNi41MyAxNjUuMTE5IDIwNC4xNzNMMTcyLjQ3NCAxOTkuOTA2TDE3NC4wMTggMjAyLjE4MkMxNzYuMTcyIDIwNS40NzMgMTgwLjg4NSAyMDkuOTg0IDE4My43MyAyMTEuNDg3QzE5MS44OTcgMjE1Ljc5NSAyMDMuMTEzIDIxNS4xODUgMjA4LjYzOSAyMTAuMjI4QzIxMC45OTYgMjA4LjA3NCAyMTEuOTcxIDIwNS44MzkgMjExLjk3MSAyMDIuNTQ4QzIxMS45NzEgMTk5LjU4MSAyMTEuNjA1IDE5OC4yODEgMjEwLjA2MSAxOTYuMDQ2QzIwOC4wNyAxOTMuMjAyIDIwNC4wMDcgMTkwLjgwNCAxOTIuNDY2IDE4NS44MDZDMTc5LjI2IDE4MC4xMTcgMTczLjU3MSAxNzYuNTgyIDE2OC4zNyAxNzAuOTc0QzE2NS4zNjMgMTY3LjcyNCAxNjIuNTE4IDE2Mi41MjIgMTYxLjM0IDE1OC4xNzRDMTYwLjM2NSAxNTQuNTU4IDE2MC4xMjEgMTQ1LjQ5NiAxNjAuODkzIDE0MS44MzlDMTYzLjYxNSAxMjkuMDggMTczLjI0NiAxMjAuMTgxIDE4Ny4xNDMgMTE3LjUzOUMxOTEuNjU0IDExNi42ODYgMjAyLjEzNyAxMTcuMDExIDIwNi41NjcgMTE4LjEwOFoiLz48L3N2Zz4KICAgICAgICA8L2c+CiAgICAgICAgCiAgPC9zdmc+CiAg" x="24" y="170" width="26" height="26"/>
+<image href="data:image/svg+xml;base64,CiAgPHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCAyNTYgMjU2IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiPgogICAgCiAgICAgICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCwgMCkiPgogICAgICAgICAgPHN2ZyB3aWR0aD0iMjU2IiBoZWlnaHQ9IjI1NiIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiByeD0iNjAiIGZpbGw9IiMyNDI5MzgiLz4KPHBhdGggZD0iTTIyNy4wODggNTcuNjAxNkwxMzMuMjU2IDIyNS4zODlDMTMxLjMxOCAyMjguODU0IDEyNi4zNDEgMjI4Ljg3NCAxMjQuMzc1IDIyNS40MjdMMjguNjgyMyA1Ny42MTc3QzI2LjU0IDUzLjg2MSAyOS43NTI0IDQ5LjMxMDUgMzQuMDA5NiA1MC4wNzE1TDEyNy45NDIgNjYuODYxM0MxMjguNTQxIDY2Ljk2ODQgMTI5LjE1NSA2Ni45Njc0IDEyOS43NTQgNjYuODU4MkwyMjEuNzIyIDUwLjA5NTVDMjI1Ljk2NSA0OS4zMjIyIDIyOS4xOTIgNTMuODM3NCAyMjcuMDg4IDU3LjYwMTZaIiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXJfMzA3XzE3OSkiLz4KPHBhdGggZD0iTTE3Mi42ODcgMjguMDQ5MkwxMDMuMjQ5IDQxLjY1NTRDMTAyLjEwNyA0MS44NzkgMTAxLjI2MiA0Mi44NDYyIDEwMS4xOTQgNDQuMDA3TDk2LjkyMjEgMTE2LjE0OEM5Ni44MjE2IDExNy44NDcgOTguMzgyMSAxMTkuMTY2IDEwMC4wNCAxMTguNzgzTDExOS4zNzMgMTE0LjMyMkMxMjEuMTgyIDExMy45MDUgMTIyLjgxNiAxMTUuNDk4IDEyMi40NDUgMTE3LjMxN0wxMTYuNzAxIDE0NS40NDNDMTE2LjMxNCAxNDcuMzM2IDExOC4wOTIgMTQ4Ljk1NCAxMTkuOTQgMTQ4LjM5M0wxMzEuODgxIDE0NC43NjVDMTMzLjczMiAxNDQuMjAzIDEzNS41MTEgMTQ1LjgyNiAxMzUuMTE5IDE0Ny43MjFMMTI1Ljk5MSAxOTEuOUMxMjUuNDIgMTk0LjY2NCAxMjkuMDk2IDE5Ni4xNzEgMTMwLjYyOSAxOTMuODAxTDEzMS42NTMgMTkyLjIxOUwxODguMjM1IDc5LjI5OTJDMTg5LjE4MyA3Ny40MDg1IDE4Ny41NDkgNzUuMjUyNiAxODUuNDcyIDc1LjY1MzRMMTY1LjU3MyA3OS40OTRDMTYzLjcwMyA3OS44NTQ1IDE2Mi4xMTIgNzguMTEzIDE2Mi42MzkgNzYuMjgzNEwxNzUuNjI4IDMxLjI1ODJDMTc2LjE1NiAyOS40MjU1IDE3NC41NTkgMjcuNjgyNSAxNzIuNjg3IDI4LjA0OTJaIiBmaWxsPSJ1cmwoI3BhaW50MV9saW5lYXJfMzA3XzE3OSkiLz4KPGRlZnM+CjxsaW5lYXJHcmFkaWVudCBpZD0icGFpbnQwX2xpbmVhcl8zMDdfMTc5IiB4MT0iMjYuMzQ1OSIgeTE9IjQ0LjA3NSIgeDI9IjE0My4xMjciIHkyPSIyMDIuNjczIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CjxzdG9wIHN0b3AtY29sb3I9IiM0MUQxRkYiLz4KPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjQkQzNEZFIi8+CjwvbGluZWFyR3JhZGllbnQ+CjxsaW5lYXJHcmFkaWVudCBpZD0icGFpbnQxX2xpbmVhcl8zMDdfMTc5IiB4MT0iMTIyLjU1MSIgeTE9IjMxLjc0MzMiIHgyPSIxNDMuNjc2IiB5Mj0iMTc2LjY2IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CjxzdG9wIHN0b3AtY29sb3I9IiNGRkVBODMiLz4KPHN0b3Agb2Zmc2V0PSIwLjA4MzMzMzMiIHN0b3AtY29sb3I9IiNGRkREMzUiLz4KPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjRkZBODAwIi8+CjwvbGluZWFyR3JhZGllbnQ+CjwvZGVmcz4KPC9zdmc+CgogICAgICAgIDwvZz4KICAgICAgICAKICA8L3N2Zz4KICA=" x="58" y="170" width="26" height="26"/>
+<image href="data:image/svg+xml;base64,CiAgPHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCAyNTYgMjU2IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiPgogICAgCiAgICAgICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCwgMCkiPgogICAgICAgICAgPHN2ZyB3aWR0aD0iMjU2IiBoZWlnaHQ9IjI1NiIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiByeD0iNjAiIGZpbGw9IiMwMjc3QkQiLz4KPHBhdGggZD0iTTUzLjc1MjcgMTAyLjY1MUw1Ni42MTU1IDEzNC41OTNIMTI4LjA5NlYxMDIuNjUxSDUzLjc1MjdaIiBmaWxsPSIjRUJFQkVCIi8+CjxwYXRoIGQ9Ik0xMjguMDk1IDM4SDEyNy45ODVINDhMNTAuOTAzNiA2OS45NDIzSDEyOC4wOTVWMzhaIiBmaWxsPSIjRUJFQkVCIi8+CjxwYXRoIGQ9Ik0xMjguMDk1IDIxOC44NDFWMTg1LjYwOEwxMjcuOTU1IDE4NS42NDVMOTIuMzgxMyAxNzYuMDRMOTAuMTA3MiAxNTAuNTY0SDcyLjgyMUg1OC4wNDI1TDYyLjUxNzUgMjAwLjcxOEwxMjcuOTQ4IDIxOC44ODJMMTI4LjA5NSAyMTguODQxWiIgZmlsbD0iI0VCRUJFQiIvPgo8cGF0aCBkPSJNMTY3LjMxOCAxMzQuNTkzTDE2My42MSAxNzYuMDE5TDEyNy45ODUgMTg1LjYzNVYyMTguODY2TDE5My40NjggMjAwLjcxOEwxOTMuOTQ4IDE5NS4zMjFMMjAxLjQ1NCAxMTEuMjI5TDIwMi4yMzMgMTAyLjY1MUwyMDggMzhIMTI3Ljk4NVY2OS45NDIzSDE3Mi45OTRMMTcwLjA4OCAxMDIuNjUxSDEyNy45ODVWMTM0LjU5M0gxNjcuMzE4WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+CgogICAgICAgIDwvZz4KICAgICAgICAKICA8L3N2Zz4KICA=" x="92" y="170" width="26" height="26"/>
+  <text x="130" y="188" font-size="12" fill="#8b949e">atualizado há 2 meses</text>
+  <rect x="332" y="167" width="124" height="32" rx="16" fill="url(#cta)"/>
+  <text x="350" y="188" font-size="13.5" font-weight="700" fill="#0d1117">Ver projeto</text>
+  <path class="arrow" d="M430 178 l5 5 -5 5 M424 183 h10" fill="none" stroke="#0d1117" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
